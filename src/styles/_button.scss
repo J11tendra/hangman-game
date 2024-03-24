@@ -1,0 +1,22 @@
+.button {
+  width: 17rem;
+  height: 6.5rem;
+  border: 0.25rem solid $black;
+  padding: 1.5rem;
+  border: 0.125rem solid $black;
+  border-radius: 1.25rem;
+  gap: 1rem;
+
+  &-play {
+    background-color: $red;
+  }
+  &-connect {
+    background-color: $blue;
+  }
+
+  h5 {
+    font-size: 2.625rem;
+    font-weight: $font-bold;
+    color: $white;
+  }
+}

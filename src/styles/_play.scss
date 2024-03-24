@@ -1,0 +1,44 @@
+.play-container {
+  //   border: 3px solid magenta;
+  gap: 2rem;
+}
+
+.play-container-text {
+  //   border: 3px solid red;
+  gap: 3rem;
+
+  &-holder {
+    // border: 3px solid orange;
+    gap: 1.975rem;
+  }
+}
+
+.play-container-category {
+  border: 2px solid $black;
+  width: 11rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  background: $btn-yellow;
+}
+
+.play-container-input-box {
+  border-bottom: 3px solid $black;
+  letter-spacing: 1rem;
+  font-size: 2rem;
+  font-weight: $font-bold;
+  color: $text-purple;
+}
+
+.play-container-keyboard {
+  //   border: 3px solid $blue;
+  gap: 1rem;
+}
+
+.keyboard-row {
+  gap: 1.75rem;
+
+  span {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+}

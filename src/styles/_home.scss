@@ -1,0 +1,41 @@
+.homepage-container {
+  // border: 0.2rem solid red;
+  gap: 5rem;
+}
+
+.homepage-cta {
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.homepage-footer {
+  position: relative;
+  border-top: 0.175rem solid $black;
+  background-color: $green;
+  padding: 1rem;
+  height: 5.75rem;
+
+  &-text {
+    font-size: 1.25rem;
+  }
+
+  &-link {
+    position: absolute;
+    bottom: 1.25rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: $font-bold;
+  }
+
+  &-icon {
+    position: absolute;
+    top: -4.25rem;
+    right: 0;
+  }
+}
+
+
+.text-link {
+  text-decoration: inherit;
+  color: inherit;
+}

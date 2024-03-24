@@ -1,0 +1,32 @@
+.change-container {
+  text-align: center;
+  margin: 4rem 0 0 0;
+  padding: 0 2rem;
+
+  h5 {
+    font-size: 1.75rem;
+    font-weight: $font-bold;
+    margin: 0 0 1rem 0;
+    width: 100%;
+    min-width: 18rem;
+  }
+}
+
+.change-btn {
+  width: 15.5rem;
+  // border: 3px solid orange;
+
+  span {
+    font-size: 1.5rem;
+  }
+}
+
+// Social icons-container
+.social-container {
+  gap: 1.75rem;
+  margin: 2rem 0 -3.75rem 0;
+}
+
+.footer-text {
+  margin-top: 8rem;
+}

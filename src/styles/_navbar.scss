@@ -1,0 +1,39 @@
+.navbar {
+  margin-top: 2rem;
+  // border: 3px solid royalblue;
+  padding: 0 1.125rem;
+  margin-bottom: 3rem;
+
+  width: 100%;
+  min-width: 23.125rem;
+}
+
+.left-nav-items {
+  // border: 3px solid purple;
+  gap: 1.5rem;
+}
+
+.mid-nav-items {
+  margin: auto 2rem;
+  span {
+    font-size: 1.75rem;
+    font-weight: $font-bold;
+  }
+}
+
+.right-nav-items {
+  position: relative;
+}
+
+.svg-points-icon {
+  height: 2.8125rem;
+  width: 5.75rem;
+}
+
+.nav-points {
+  position: absolute;
+  top: 0.425rem;
+  right: 0.275rem;
+  font-size: 1.625rem;
+  font-weight: $font-bold;
+}

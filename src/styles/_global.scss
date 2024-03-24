@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Comic Neue", cursive;
+  font-size: 16px;
+  font-weight: $font-regular;
+  color: $black;
+}
+
+main {
+  background-image: url(../assets/bg-grid.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  border: 2px solid $black;
+  width: 100%;
+  max-width: 430px;
+  min-width: 360px;
+
+  margin: 3rem auto;
+}
+
+.flex {
+  display: flex;
+
+  &-col {
+    flex-direction: column;
+  }
+
+  &-jc-cnt {
+    justify-content: center;
+  }
+
+  &-jc-spbtw {
+    justify-content: space-between;
+  }
+
+  &-jc-spbtw-al-cnt {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-al-cnt {
+    align-items: center;
+  }
+
+  &-jc-al-cnt {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+// Settings; Connect;
+.bg-container {
+  position: relative;
+  height: 30.375rem;
+  max-width: 23.125rem;
+  min-width: 18rem;
+  margin: 8rem auto;
+  background: $white;
+  border: 2px solid $black;
+  border-radius: 1.25rem;
+  z-index: 1;
+}
+
+.link-container-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 2rem;
+  background: $bg-gradient;
+  z-index: 0;
+  height: 100%;
+  min-height: 50rem;
+
+  // Cross-btn
+
+  .cross-btn {
+    position: absolute;
+    top: -1.5rem;
+    right: -1.125rem;
+  }
+}
+
+a,
+a:active,
+a:hover,
+a:focus,
+a:focus-visible {
+  text-decoration: none;
+  color: $black;
+}
